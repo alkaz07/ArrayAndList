@@ -50,9 +50,9 @@ public class Main {
         //list2.add(0,new Integer(-999));  //устаревший вариант
         list2.add(0, -999);
         System.out.println("list2 = " + list2);
-//        //Обратно:   список --> массив
-//        Car[] massiv2 = list2.toArray(new Car[0]);
-//        System.out.println("Arrays.toString(massiv2) = " + Arrays.toString(massiv2));
+        //        Обратно:   список --> массив
+        Integer[] massiv2 = list2.toArray(new Integer[0]);
+        System.out.println("Arrays.toString(massiv2) = " + Arrays.toString(massiv2));
     }
 }
 
